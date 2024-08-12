@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format(opentype);
+    font-weight: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+--font-padrao: Arial, Verdana, Helvetica, sans-serif;
+--fonte-bebas: "Bebas Neue", sans-serif;
+--fonte-android: 'android';
+}
+
+body {
+    background-color: green;
+}
