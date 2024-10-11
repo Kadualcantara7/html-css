@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex box</title>
-    <link rel="stylesheet" href="style.css">
     <style>
         div.pai {
             background-color: red;
             display: flex;
-            height: 300px;
-            flex-flow: row nowrap;
-            justify-content: space-around;
-            align-items: center;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            height: 400px;
         }
 
         div.filho {
             background-color: aqua;
             border: 2px solid black;
             text-align: center;
+            padding: 40px;
         }
     </style>
 </head>
 <body>
     <div class="pai">
+        <div class="filho">a</div>
+        <div class="filho">b</div>
+        <div class="filho">c</div>
+        <div class="filho">d</div>
         <div class="filho">a</div>
         <div class="filho">b</div>
         <div class="filho">c</div>
