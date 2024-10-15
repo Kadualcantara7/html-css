@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        div.pai {
+            background-color: red;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.filho {
+            background-color: aqua;
+            border: 2px solid black;
+            text-align: center;
+            flex-basis: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">a</div>
+        <div class="filho">outro conteudo</div>
+        <div class="filho">conteudo um pouco maior</div>
+        <div class="filho">d</div>
+        <div class="filho">conteudo maior ainda, que vai ocupar mais espaço</div>
+        <div class="filho">f</div>
+    </div>
+</body>
+</html>

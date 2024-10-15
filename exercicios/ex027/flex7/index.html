@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        div.pai {
+            background-color: red;
+            display: flex;
+        }
+
+        div.filho {
+            background-color: aqua;
+            border: 2px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#i1 {
+            order: 0;
+        }
+
+        div#i2 {
+            order: -100;
+        }
+
+        div#i3 {
+            order: 100;
+        }
+
+        div#i4 {
+            order: 2;
+        }
+
+        div#i5 {
+            order: -50;
+        }
+
+        div#i6 {
+            order: 12;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho" id="i1">a</div>
+        <div class="filho" id="i2">b</div>
+        <div class="filho" id="i3">c</div>
+        <div class="filho" id="i4">d</div>
+        <div class="filho" id="i5">e</div>
+        <div class="filho" id="i6">f</div>
+    </div>
+</body>
+</html>
