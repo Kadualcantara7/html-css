@@ -11,3 +11,8 @@ header > h1 {
 header > nav > a  {
     width: 90vw;
 }
+
+span {
+    background-color: red;
+    display: block;
+}
